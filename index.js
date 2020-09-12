@@ -31,7 +31,7 @@ $("body").keydown(function () {
 
 
 function playSound(x) {
-    var audio = new Audio("sounds/" + x + ".mp3");
+    var audio = new Audio(x + ".mp3");
     audio.play();
 
 }
